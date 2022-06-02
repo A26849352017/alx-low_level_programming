@@ -1,10 +1,8 @@
 #include <stdio.h>
-
 /**
- * main: print the strings in the puts function
- *
- * decription:using the main function 
- * this prints "Programming is like building a multilingual puzzle"
+ * main - print the strings in the puts function
+ * Decription: using the main function this prints 
+ * "Programming is like building a multilingual puzzle"
  * return: 0
  */ 
 int main(void)
