@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-* main - prints the phrase with proper grammar,
-* but the outcome is a piece of art"
+* main - Entry point
+* Description: printing with proper grammer, but the outcome is a piece of art,
 * Return: Always 0 (Success)
 */
 
