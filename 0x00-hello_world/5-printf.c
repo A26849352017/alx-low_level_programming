@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-* main - Entry point
-*
+* main - prints a string that in pups the functions
+* Description: Printing with proper grammer,but the outcome is a piece of art"
 * Return: Always 0 (Success)
 */
 
