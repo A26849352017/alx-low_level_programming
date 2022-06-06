@@ -1,9 +1,11 @@
 #include<stdio.h>
 /**
  * main - main function
- * Decription:A program that prints alphabet in the lowercase
  *
- * Return - 0
+ * Description: A programm that prints alphabet in lowercase
+ *
+ * Return: 0
+ *
  */
 int main(void)
 {
@@ -15,12 +17,7 @@ int main(void)
 		{
 			putchar(c);
 		}
-
-
-
 	}
 	printf("\n");
-
-return (0);
-
+	return (0);
 }
