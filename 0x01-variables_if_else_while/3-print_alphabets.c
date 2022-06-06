@@ -12,12 +12,18 @@ int main(void)
 {
 	char alphabets;
 
+	char ALPHABETS;
+
 	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
-		for (alphabets = 'A'; alphabets <= 'Z'; ++alphabets)
-		{
+	{
 		putchar(alphabets);
 	}
+	for (ALPHABETS = 'A'; ALPHABETS <= 'Z'; ALPHABETS++)
+	{
+		putchar(ALPHABETS);
+	}
 	putchar('\n');
+
 return (0);
 
 }
