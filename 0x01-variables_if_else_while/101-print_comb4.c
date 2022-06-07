@@ -6,9 +6,7 @@
  */
 int main(void)
 {
-	int a = 0;
-	int b = 0;
-	int c = 0;
+	int a = 0, b = 0, c = 0, d = 0;
 	int coma = 1;
 
 	while (a <= 9)
@@ -17,19 +15,26 @@ int main(void)
 		{
 			while (c <= 9)
 			{
-				if (a < b && b < c)
+				while (d <= 9)
 				{
+					if ((c * 10) + d > (a * 10) + b)
+					{
 					if (coma == 0)
 					{
 						putchar(',');
 						putchar(32);
 					}
-					coma = 0;
-					putchar(a + '0');
-					putchar(b + '0');
-					putchar(c + '0');
+						putchar(a + '0');
+						putchar(b + '0');
+						putchar(32);
+						putchar(c + '0');
+						putchar(d + '0');
+						coma = 0;
+					}
+					++d;
 				}
 				++c;
+				d = 0;
 			}
 			++b;
 			c = 0;
@@ -37,6 +42,7 @@ int main(void)
 		++a;
 		b = 0;
 	}
+
 	putchar(10);
 
 	return (0);
